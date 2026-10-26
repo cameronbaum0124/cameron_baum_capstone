@@ -1,0 +1,20 @@
+Paths in urls are sometimes referred to as 'endpoints'
+
+You can have as many parameters for a url endpoint, as long as they are separated by '&'
+
+API = Application Programming Interface
+
+Sign in requires request to API, a check if it is possible, then a response is received
+
+Response components include Status Code (e.g. 200 {successful}), Body, and Headers
+
+Request Types:
+
+/books
+
+	- GET (/books)
+	- DELETE (/books/{bookId})
+	- POST (/books) (creates a book)
+	- PUT (/books/{bookId}) (method to update a book)
+	
+
